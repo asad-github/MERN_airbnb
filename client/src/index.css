@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Poppins;
+}
+#login-page{
+    display: flex;
+    justify-content: space-between;
+}
+.form-cont{
+
+}
+.login-img-cont{
+    background-image: url('./assets/Photos/airbnb-virtual1.png');
+    background-size: cover;
+    height: 600px;
+    width: 1055px;
+}
+.form-cont{
+    width: 400px;
+}   
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 150px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    margin: 10px 0px 15px 0px;
+    font-size: large;
+    padding: 0px 0px 2px 5px;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    font-size: larger;
+    background-color: cadetblue;
+    font-style:oblique;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#signuphref{
+    margin-left: 50px;
+}
+.bold{
+    font-size: large;
+    font-weight: bold;
+}
